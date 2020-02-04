@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50230" started-at="2020-02-04T02:15:47Z" finished-at="2020-02-04T02:16:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50230" started-at="2020-02-04T02:15:47Z" finished-at="2020-02-04T02:16:37Z">
+      <class name="DriverFactory.Driverscript">
+        <test-method status="FAIL" signature="starttest()[pri:0, instance:DriverFactory.Driverscript@6debcae2]" name="starttest" duration-ms="50139" started-at="2020-02-04T07:45:47Z" finished-at="2020-02-04T07:46:37Z">
+          <exception class="java.io.IOException">
+            <message>
+              <![CDATA[The filename, directory name, or volume label syntax is incorrect]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.IOException: The filename, directory name, or volume label syntax is incorrect
+	at java.io.WinNTFileSystem.canonicalize0(Native Method)
+	at java.io.WinNTFileSystem.canonicalize(Unknown Source)
+	at java.io.File.getCanonicalPath(Unknown Source)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1064)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:1028)
+	at DriverFactory.Driverscript.starttest(Driverscript.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.IOException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starttest -->
+      </class> <!-- DriverFactory.Driverscript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
